@@ -135,28 +135,40 @@ html,body{height: 100%;}
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 } */
 
+#logo{
+
+    width: 10%;
+    height: auto;
+    vertical-align: bottom;
+}
 
 nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 
-.wrap-sticky nav.navbar.bootsnav.sticked .links, .wrap-sticky nav.navbar.bootsnav.sticked  a.logo{
+.wrap-sticky nav.navbar.bootsnav.sticked .links, .wrap-sticky nav.navbar.bootsnav.sticked a.logo{
     color: white;
 }
 
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
-    display: inline-block;
-    color: #fff;
-    font-size: 24px;
-    letter-spacing: 3px;
-    font-family: 'Rufina', serif;
-    font-weight: 700;
-    padding: 45px 0px;
-    text-transform:uppercase;
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
 
 .navbar-header a.logo,.navbar-header a.logo:hover,.navbar-header a.logo:focus{
@@ -567,6 +579,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------
         12. Contact
 --------------------------------------*/
+
 .contact {
     background: #2a2d54;
 }
