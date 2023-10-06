@@ -158,11 +158,30 @@ nav.navbar.bootsnav {
     margin-left: auto;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
-.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header {width: 300px;}
+.wrap-sticky nav.navbar.bootsnav .navbar-header {width: 200px;}
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header {width: 150px;}
 
 .wrap-sticky nav.navbar.bootsnav.sticked .links{
     color: white;
     
+}
+
+.wrap-sticky nav.navbar.bootsnav .navbar-brand, .wrap-sticky nav.navbar.bootsnav.sticked .navbar-brand {
+    width: 34px;
+    height: 38px;
+    background:url(../logo/logo.png)no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.wrap-sticky nav.navbar.bootsnav .navbar-brand.black-toggle {
+    width: 34px;
+    height: 38px;
+    background:url(../logo/logo-black.png)no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-brand {
@@ -215,7 +234,7 @@ nav.navbar.bootsnav ul.nav > li > .links {
 }
 
 nav.navbar.bootsnav ul.nav > li > a {padding: 48px 21px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus, a:hover{color:#4e4ffa;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus, a:hover{background-color:#4e4ffa;}
 nav.navbar.bootsnav ul.nav > li > .links:focus, nav.navbar.bootsnav ul.nav > li > .links:hover{color:#4e4ffa;}
 nav.navbar.bootsnav ul.nav > li.active>a {color: #4e4ffa;}
 
@@ -259,7 +278,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: transparent;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/welcome-banner.jpg)no-repeat;
+    background:url(https://wallpapercave.com/wp/wp8345292.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -274,6 +293,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: transparent;}
     background: rgba(42,45,84,.60);
 }
 .header-area{position: absolute;top:0;left:0;width: 100%;z-index: 99;}
+
+.contact-banner {
+    background:url(https://h3.hqtexture.com/108/10724/1572611219-prw1.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
 
 /*.welcome-hero-txt*/
 .welcome-hero-txt{text-align: center;padding:290px 0 372px;}
@@ -596,6 +622,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: transparent;}
         12. Contact
 --------------------------------------*/
 
+.hm-foot-email.form-submit .submit-button {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+#submit input {
+    background-color: #16182d;
+}
+
 .contact-page{
 
     padding-top: 112px;
@@ -647,9 +684,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: transparent;}
     text-align: center;
 }
 
-#submit input {
-    background-color: rgb(192, 192, 192);
-}
 
 .contact {
     background: #2a2d54;

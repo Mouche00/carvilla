@@ -27,7 +27,7 @@
 	nav.navbar.bootsnav .navbar-brand {padding: 25px;display: flex;align-items: center;padding: 0;justify-content: center;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 	nav.navbar.bootsnav ul.nav > li > .links {color: white;}
-	nav.navbar.bootsnav .navbar-brand {
+	#logo-container {
 		width: 34px;
 		height: 38px;
 		background:url(../logo/logo.png)no-repeat;
@@ -36,7 +36,6 @@
 		background-size: contain;
 		text-align: center;
 	}
-	#logo {display: none;}
 	.flex-container{display: block;}
 	.wrap-sticky nav.navbar.bootsnav .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 }/*max-width:992px*/
