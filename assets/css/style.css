@@ -136,31 +136,49 @@ html,body{height: 100%;}
 } */
 
 #logo{
-
+    vertical-align: bottom;
     width: 10%;
     height: auto;
-    vertical-align: bottom;
 }
+
+/* .logo-wrapper .logo-text {
+    display: inline-block;
+    font-family: "Rufina", sans-serif;
+    float: left;
+    margin-right: 0;
+    overflow: hidden;
+    transition: all 1s ease 0s;
+    padding-top: 1px;
+    width: 50px;
+    color: #000;
+    font-size: 30px;
+    opacity: 0;
+}
+.logo-wrapper:hover .logo-text, .hmslider-visible .logo-wrapper .logo-text {
+    padding-top: 1px;
+    width: 100px;
+    opacity: 1;
+} */
 
 nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
 
-.flex-container {
+.navbar .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 0;
+    padding-right: 0;
     margin-right: auto;
     margin-left: auto;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header {width: 300px;}
 
-.wrap-sticky nav.navbar.bootsnav.sticked .links{
+.wrap-sticky nav.navbar.bootsnav.sticked .links, .wrap-sticky nav.navbar.bootsnav.sticked .logo-text{
     color: white;
     
 }
